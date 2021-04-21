@@ -12,17 +12,14 @@
     height: auto;
   }
   a {
-    :link{
-      color: black;
-      text-decoration: underline;
-    }
+    text-decoration: none;
+    margin: 0;
+    color: black;
     &:hover{
-      color: gray;
-      text-decoration: underline;
+      color: $sec;
     }
     &:active {
-      color: grey;
-      text-decoration: underline;
+      color: $sec;
     }
   }
 }
@@ -34,17 +31,14 @@
     font-weight: 400;
   }
   a {
-    :link{
-      color: black;
-      text-decoration: underline;
-    }
+    text-decoration: none;
+    margin: 0;
+    color: black;
     &:hover{
-      color: gray;
-      text-decoration: underline;
+      color: $sec;
     }
     &:active {
-      color: grey;
-      text-decoration: underline;
+      color: $sec;
     }
   }
 }
@@ -64,17 +58,14 @@
     font-size: 75px;
   }
   a {
-    :link{
-      color: black;
-      text-decoration: underline;
-    }
+    text-decoration: none;
+    margin: 0;
+    color: black;
     &:hover{
-      color: gray;
-      text-decoration: underline;
+      color: $sec;
     }
     &:active {
-      color: grey;
-      text-decoration: underline;
+      color: $sec;
     }
   }
 }
@@ -86,17 +77,14 @@
     font-weight: 400;
   }
   a {
-    :link{
-      color: black;
-      text-decoration: underline;
-    }
+    text-decoration: none;
+    margin: 0;
+    color: black;
     &:hover{
-      color: gray;
-      text-decoration: underline;
+      color: $sec;
     }
     &:active {
-      color: grey;
-      text-decoration: underline;
+      color: $sec;
     }
   }
 }
