@@ -12,14 +12,15 @@
     height: auto;
   }
   a {
-    :link: none;
-    margin: 0;
-    color: #FFF;
-    &:hover{
+    :link:{
       color: black;
+      text-decoration: underline;
+    }
+    &:hover{
+      color: gray;
     }
     &:active {
-      color: black;
+      color: grey;
     }
   }
 }
