@@ -46,6 +46,7 @@
       color: grey;
       text-decoration: underline;
     }
+  }
 }
 
 .user {
@@ -75,6 +76,7 @@
       color: grey;
       text-decoration: underline;
     }
+  }
 }
 
 .user-details {
@@ -96,18 +98,5 @@
       color: grey;
       text-decoration: underline;
     }
+  }
 }
-
-a {
-  :link{
-    color: black;
-    text-decoration: underline;
-  }
-  &:hover{
-    color: gray;
-    text-decoration: underline;
-  }
-  &:active {
-    color: grey;
-    text-decoration: underline;
-  }
