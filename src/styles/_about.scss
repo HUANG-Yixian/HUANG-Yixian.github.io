@@ -11,6 +11,17 @@
     width: 60px !important;
     height: auto;
   }
+  a {
+    text-decoration: none;
+    margin: 0;
+    color: #FFF;
+    &:hover{
+      color: $sec;
+    }
+    &:active {
+      color: $sec;
+    }
+  }
 }
 
 .tech {
@@ -34,17 +45,6 @@
   @media only screen and (min-width: $cut) {
     flex-wrap: nowrap;
     font-size: 75px;
-  }
-  a {
-    text-decoration: none;
-    margin: 0;
-    color: #FFF;
-    &:hover{
-      color: $sec;
-    }
-    &:active {
-      color: $sec;
-    }
   }
 }
 
