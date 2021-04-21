@@ -1,16 +1,19 @@
 # Site settings
-title: Mauricio Urraco
-description: Jekyll Theme Minimal Resume
+title: Yixian Huang
+description: Yixian's Site
 # baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+# url: http://huang-yixian.github.io
 
 # User settings
-username: Mauricio Urraco
-user_description: I\'m a nomad Software Engineer, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been immersed in the <b>crypto-world</b> working for Radix, a London based startup trying to create the next massive scalable DLT. I'm one of the two guys behind all the JS related stuff.
-user_title: Software Engineer
-email: mauriurraco@gmail.com
+username: Yixian Huang
+user_description: Hello! I am a first-year Ph.D. student in <a href="https://education.utexas.edu/departments/special-education/graduate-programs/learning-disabilities-behavioral-disorders">Learning Disabilities and Behavioral Disorders(LD/BD)</a> at the University of Texas at Austin. I am a quantitative researcher, and am interested in randomized controlled trial (RCT) and meta-analysis research.
+user_title: PhD Student in Learning Disabilities and Behavioral Disorders (LD/BD)
+email: yixian.huang@utexas.edu
+personal_website: https://huang-yixian.github.io
+
+
 # twitter_username: lorem_ipsum
-# github_username:  lorem_ipsum
+# github_username:  HUANG-Yixian
 # gplus_username:  lorem_ipsum
 
 exclude: ['package.json', 'src' , 'node_modules']
