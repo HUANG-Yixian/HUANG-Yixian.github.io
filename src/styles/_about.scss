@@ -18,9 +18,11 @@
     }
     &:hover{
       color: gray;
+      text-decoration: underline;
     }
     &:active {
       color: grey;
+      text-decoration: underline;
     }
   }
 }
@@ -31,6 +33,19 @@
   h2, h3 {
     font-weight: 400;
   }
+  a {
+    :link{
+      color: black;
+      text-decoration: underline;
+    }
+    &:hover{
+      color: gray;
+      text-decoration: underline;
+    }
+    &:active {
+      color: grey;
+      text-decoration: underline;
+    }
 }
 
 .user {
@@ -47,6 +62,19 @@
     flex-wrap: nowrap;
     font-size: 75px;
   }
+  a {
+    :link{
+      color: black;
+      text-decoration: underline;
+    }
+    &:hover{
+      color: gray;
+      text-decoration: underline;
+    }
+    &:active {
+      color: grey;
+      text-decoration: underline;
+    }
 }
 
 .user-details {
@@ -55,4 +83,31 @@
   h1 {
     font-weight: 400;
   }
+  a {
+    :link{
+      color: black;
+      text-decoration: underline;
+    }
+    &:hover{
+      color: gray;
+      text-decoration: underline;
+    }
+    &:active {
+      color: grey;
+      text-decoration: underline;
+    }
 }
+
+a {
+  :link{
+    color: black;
+    text-decoration: underline;
+  }
+  &:hover{
+    color: gray;
+    text-decoration: underline;
+  }
+  &:active {
+    color: grey;
+    text-decoration: underline;
+  }
