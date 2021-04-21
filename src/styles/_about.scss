@@ -76,15 +76,15 @@
   h1 {
     font-weight: 400;
   }
-  a {
+  a:link{
     text-decoration: none;
     margin: 0;
     color: black;
-    &:hover{
-      color: $sec;
-    }
-    &:active {
-      color: $sec;
-    }
   }
+  a:hover{
+      color: $sec;
+    }
+  a:active {
+      color: $sec;
+    }
 }
